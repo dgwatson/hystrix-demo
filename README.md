@@ -1,16 +1,20 @@
+Hystrix Demo
+=========================
+This is a demonstration of the circuit breaker pattern with Netflix Hystrix and Spring Cloud
+
 **Build**
 ```
 mvn clean install
 ```
 **Run Services**
 
-+ Downstream System
+Downstream System
 
 ```
 cd downstream-system
 mvn spring-boot:run
 ```
-+ Service
+Service
 ```
 cd service
 mvn spring-boot:run
